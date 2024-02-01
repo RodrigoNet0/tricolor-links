@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, Sans serif;
+  
 }
 
 main {
@@ -12,13 +13,13 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+  background: linear-gradient(90deg, rgba(210,19,19,1) 30%, rgba(233,137,137,1) 87%, rgba(0,0,0,0.8491771708683473) 100%, rgba(255,255,255,1) 100%);
 }
 
 header {
   width: 100%;
   height: 100px;
-  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+ 
 }
 
 h1 {
@@ -46,7 +47,7 @@ button {
   margin-top: 10px;
   border: none;
   border-radius: 10px;
-  background-color: blue;
+  background: linear-gradient(90deg, rgba(210,19,19,1) 30%, rgba(233,137,137,1) 87%, rgba(0,0,0,0.8491771708683473) 100%, rgba(255,255,255,1) 100%);
   color: white;
   transition: color 500ms, background 500ms;
   cursor: pointer;
@@ -83,6 +84,18 @@ footer {
   
   @media only screen and (max-width: 480px) {
     body {
+      font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    header {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    header {
       font-size: 12px;
     }
   }
